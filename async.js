@@ -3,7 +3,7 @@ var router = express.Router();
 var mysqldb = require('../mysqldb');
 const echasync = require('echasync');
 
-const table = '`ab_db_main`.`ab_users`';
+const table = '';
 
 router.get('/loop',(req,res) =>{
 	var data = [];
